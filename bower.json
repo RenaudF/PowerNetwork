@@ -1,0 +1,16 @@
+{
+  "name": "Power Network",
+  "version": "0.0.0",
+  "authors": [
+    "Renaud Fontana <sirgzu@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "libs"
+  ],
+  "dependencies": {
+    "d3": "~3.5.16",
+    "bootstrap": "~3.3.6",
+    "deferjs": "https://github.com/RenaudF/deferjs.git"
+  }
+}

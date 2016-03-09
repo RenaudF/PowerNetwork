@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Power Network Visualisation</title>
+	<link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/jquery/dist/jquery.js"></script>
+	<script src="libs/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="libs/d3/d3.js"></script>
+	<script src="libs/deferjs/defer.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand">Power Network</a>
+			</div>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="selectedNetwork">Select Network... </span><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li id="IEEE300"><a>IEEE300</a></li>
+							<li role="separator" class="divider"></li>
+							<li id="Ireland2013"><a>Ireland2013</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<svg id="svg" width="900" height="500"></svg>
+	<script src="scripts/model.js"></script>
+	<script src="scripts/view.js"></script>
+	<script src="scripts/controller.js"></script>
+</body>
+</html>
